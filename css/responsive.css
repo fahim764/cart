@@ -1,0 +1,207 @@
+
+
+
+
+/* for lg devices */
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+
+
+          
+
+            }
+
+
+/* for ipad */
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+   
+    
+
+    .input-area::after {
+        width: 180px;
+        left: 16px;
+        
+    }
+
+    .banner-cart-area {
+        
+        padding: 50px 0 10px 0;
+      }
+    
+
+
+  
+   
+
+}
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 767px){
+
+   /* lg view */
+
+   .header-area,
+   .hero-section{
+       display: none;
+   }
+
+   /* header mobile viwe */
+
+   .header-sm {
+        display: block;
+   }
+
+   .time-area {
+       padding: 10px 0;
+   }
+
+   .signal-items {
+       padding: 10px 0;
+   }
+
+    .time-area span {
+        color: #ffffff; 
+        display: block;
+        margin-left: 10px; 
+    }
+
+    .signal-items ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .signal-items i {
+        color: #ffffff;
+        display: block;
+        margin: 0 10px  0 0;
+    }
+
+    /* header  */
+
+    .header-sm-viwe {
+        padding: 20px 0;
+    }
+
+   
+
+    .banner-cart-area {
+        padding: 30px 0 10px 0;
+      }
+
+      .subtotal-area {  
+        display: none;  
+    }
+
+    .sub-sm-viwe {
+        display: block;
+        background: #E5E5E5;
+        margin-left: 30px;
+    }
+
+    .sub-sm-viwe .sub h2,
+    .sub h4 {
+        color: #232E49;
+    }
+
+    .sub p,
+    .sub span {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #6B6983;
+    }
+
+    .sub span {
+        color: #6EBE45;
+    }
+
+    .sub-line {
+        position: relative;
+        margin-top: 25px;
+    }
+
+    .sub-line::before {
+        content: '';
+        display: block;
+        background-color: #DADADA;
+        width: 290px;
+        height: 2px;
+        position: absolute;
+        top: -24px;
+        left: 20px;
+        border-radius: 8px;
+    }
+
+    .check-btn {
+        margin-top: 20px;
+    }
+
+    .check-btn a {
+        display: block;
+        background-color: #6EBE45;
+        color: #ffffff;
+        padding: 12px 0;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.2s;
+    }
+
+    .check-btn a:hover {
+        opacity: 0.8;
+        color: #ffffff;
+    }
+
+    /* footer */
+
+    .footer-content {
+        display: none;
+    }
+
+    .footer-menu {
+        display: block;
+        background-color: #ffffff;
+         padding: 8px 0;
+    }
+
+    .footer-menu nav {
+        display: block;
+    }
+    
+
+    .copyright {
+        display: none;
+    }
+
+
+
+
+    
+  
+   
+
+
+
+   
+   
+
+
+   
+   
+        
+
+  
+  
+}
+
+
+
+
